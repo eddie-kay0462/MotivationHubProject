@@ -3,20 +3,22 @@ body{
     margin: 0px;
     padding-top: 80px;
     height: 2000px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
 .header
 {
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
     background-color: black;
 }
-html
-{
-    padding: 0px;
-    margin: 0px;
-}
+
 
 ul 
 {
@@ -24,6 +26,7 @@ ul
     padding-left: 5px;
     padding-right: 5px;
 }
+
 a 
 {
     text-decoration: none;
@@ -57,17 +60,18 @@ a:hover
 {
     display: grid;
     width: auto;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas: 
     'quote quote quote intro-quotes intro-quotes'
     'quote quote quote about about';
+    margin-bottom: 5px;
 }
 
 .quote
 {
     grid-area: quote;
-    padding-left: 5px;
+    /* padding-left: 5px; */
     width: 100%;
     background-size: contain;
     border-radius: 5px;
@@ -82,7 +86,7 @@ a:hover
     align-content: center;
     /* margin-bottom: 5px; */
     font-weight: bold;
-    margin-right: 5px;
+    /* margin-right: 5px; */
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
@@ -94,7 +98,7 @@ a:hover
     text-align: center;
     justify-items: center;
     align-content: center;
-    margin-right: 5px;
+    /* margin-right: 5px; */
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
@@ -115,7 +119,8 @@ a:hover
 .image-quotes img
 {
     width: 100%;
-   
+    border-radius: 5px;
+    
 }
 
 
@@ -166,6 +171,7 @@ a:hover
         display: grid;
         grid-template-columns:1fr;
         grid-row-gap: 5px;
+      
         grid-template-areas: 
         'quote'
         'intro-quotes'
@@ -180,21 +186,22 @@ a:hover
     .intro-quotes
     {
         height: 100%;
-        width: 100%;
-        
-        
+        width: 100%; 
     }
     .about
     {
         width: 100%;
         height: 100%;
-        padding: 5px;
+        padding-top: 5px;
+        /* padding-left: 5px; */
     }
     .image-quotes
     {
-        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         margin-left: 0;
         margin-right: 0;
+        width: 100%;
         
     }
     .intro-quotes .message
