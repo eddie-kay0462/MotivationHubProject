@@ -165,7 +165,7 @@ a:hover
         display: grid;
         grid-template-columns:1fr;
         grid-row-gap: 5px;
-      
+        grid-template-rows: repeat(3, 1fr);
         grid-template-areas: 
         'quote'
         'intro-quotes'
