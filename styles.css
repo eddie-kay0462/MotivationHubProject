@@ -46,7 +46,6 @@ a
 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* grid-column-gap: 8px; */
 }
 
 a:hover 
@@ -71,7 +70,6 @@ a:hover
 .quote
 {
     grid-area: quote;
-    /* padding-left: 5px; */
     width: 100%;
     background-size: contain;
     border-radius: 5px;
@@ -84,9 +82,7 @@ a:hover
     color: white;
     text-align: center;
     align-content: center;
-    /* margin-bottom: 5px; */
     font-weight: bold;
-    /* margin-right: 5px; */
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
@@ -98,7 +94,6 @@ a:hover
     text-align: center;
     justify-items: center;
     align-content: center;
-    /* margin-right: 5px; */
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
@@ -113,7 +108,6 @@ a:hover
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); 
     grid-gap: 5px;
-    /* margin:5px; */
 }
 
 .image-quotes img
@@ -141,8 +135,8 @@ a:hover
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-areas: 
-        'quote quote quote quote intro-quotes'
-        'quote quote quote quote about';
+        'quote quote quote intro-quotes intro-quotes'
+        'quote quote quote about about';
     }
      
     .quote
@@ -193,7 +187,6 @@ a:hover
         width: 100%;
         height: 100%;
         padding-top: 5px;
-        /* padding-left: 5px; */
     }
     .image-quotes
     {
@@ -202,7 +195,6 @@ a:hover
         margin-left: 0;
         margin-right: 0;
         width: 100%;
-        
     }
     .intro-quotes .message
     {
